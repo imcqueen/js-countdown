@@ -10,6 +10,6 @@ A dependency-free way to show a countdown to a future date.
 
 ## Parameters
 
-- Container: (string|object) DOM element or string of the id that will contain the countdown
-- endTime: (integer|Date object) The date/time to be counted down towards
+- Container: (string | object) DOM element or string of the id that will contain the countdown
+- endTime: (integer | Date object) The date/time to be counted down towards
 - callback: (function) The callback function is executed when the timer reaches zero
