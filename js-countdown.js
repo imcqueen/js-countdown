@@ -1,4 +1,4 @@
-function showTimer(t){
+function jsCountdown(t){
 	var that = this;
 	that.el = typeof t.container == 'object' ? t.container : document.getElementById(t.container);
 	
@@ -14,7 +14,7 @@ function showTimer(t){
 	}
 }
 
-showTimer.prototype = {
+jsCountdown.prototype = {
 	seconds:0,
 	
 	el: {},
